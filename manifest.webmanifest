@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "КАДР — личная медиатека",
+  "short_name": "КАДР",
+  "description": "Личный каталог фильмов и аниме с оценками и офлайн-режимом",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101215",
+  "theme_color": "#101215",
+  "orientation": "portrait-primary",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"},
+    {"src":"./apple-touch-icon.png","sizes":"180x180","type":"image/png","purpose":"any"}
+  ]
+}
