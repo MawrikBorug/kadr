@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="120" fill="#d7f277"/><path d="M148 96h60v320h-60zM210 96h100c83 0 134 51 134 126 0 52-28 91-76 110l88 104h-78l-77-94h-31v94h-60V96zm60 58v130h35c50 0 78-23 78-65s-28-65-78-65z" fill="#101215"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t d">
+<title id="t">Знак КАДР</title><desc id="d">Кинематографическая рамка с углами визира и буквой К в негативном пространстве.</desc>
+<rect width="512" height="512" rx="112" fill="#101116"/>
+<path d="M108 174V108h66M338 108h66v66M404 338v66h-66M174 404h-66v-66" fill="none" stroke="#D9A36F" stroke-width="18" stroke-linecap="square"/>
+<path d="M189 154v204M189 258l132-104M189 258l132 100" fill="none" stroke="#F3F1EC" stroke-width="34" stroke-linecap="square" stroke-linejoin="miter"/>
+<path d="M326 136h32v84h-32z" fill="#A13A59"/>
+<path d="M326 292h32v84h-32z" fill="#A13A59"/>
+</svg>
