@@ -1,5 +1,5 @@
 /* КАДР PWA — versioned shell cache. Updating the cache never touches localStorage. */
-const BUILD='4.0.0';
+const BUILD='4.0.4-live-data-v8';
 const SHELL_CACHE=`kadr-shell-${BUILD}`;
 const DYNAMIC_CACHE='kadr-dynamic-v2';
 const SHELL=[
@@ -10,7 +10,7 @@ const SHELL=[
   './assets/brand/icons/home.png','./assets/brand/icons/catalog-grid.png','./assets/brand/icons/list.png','./assets/brand/icons/bookmark.png','./assets/brand/icons/collections.png','./assets/brand/icons/shuffle.png','./assets/brand/icons/settings.png','./assets/brand/icons/search.png','./assets/brand/icons/filter.png','./assets/brand/icons/menu.png','./assets/brand/icons/more.png','./assets/brand/icons/close.png','./assets/brand/icons/back.png','./assets/brand/icons/forward.png','./assets/brand/icons/expand-up.png','./assets/brand/icons/collapse-down.png','./assets/brand/icons/add.png','./assets/brand/icons/check.png','./assets/brand/icons/favorite-outline.png','./assets/brand/icons/favorite-filled.png','./assets/brand/icons/play.png','./assets/brand/icons/watched.png','./assets/brand/icons/watching.png','./assets/brand/icons/dropped.png','./assets/brand/icons/film.png','./assets/brand/icons/series.png','./assets/brand/icons/anime.png','./assets/brand/icons/cast.png','./assets/brand/icons/director.png','./assets/brand/icons/duration.png','./assets/brand/icons/calendar.png','./assets/brand/icons/tag.png','./assets/brand/icons/gallery.png','./assets/brand/icons/external-link.png','./assets/brand/icons/refresh.png','./assets/brand/icons/backup.png',
   './assets/brand/fonts/KADR-Sans-Regular.woff2','./assets/brand/fonts/KADR-Sans-Bold.woff2','./assets/brand/fonts/KADR-Display-Regular.woff2','./assets/brand/fonts/Inter-Regular.woff2','./assets/brand/fonts/Inter-SemiBold.woff2','./assets/brand/fonts/Inter-Bold.woff2','./assets/brand/fonts/InterDisplay-ExtraBold.woff2'
 ];
-const IMAGE_HOSTS=new Set(['image.tmdb.org','upload.wikimedia.org','commons.wikimedia.org','m.media-amazon.com','assets.fanart.tv','cdn.myanimelist.net','images-na.ssl-images-amazon.com','www.newdvdreleasedates.com','cdn.teater.co','sollywood.com.sa','cdn.kinocheck.com','image.kinopoisk.ru','avatars.mds.yandex.net']);
+const IMAGE_HOSTS=new Set(['image.tmdb.org','upload.wikimedia.org','commons.wikimedia.org','m.media-amazon.com','assets.fanart.tv','cdn.myanimelist.net','images-na.ssl-images-amazon.com','static.tvmaze.com','tvmaze.com','i.imgur.com','www.newdvdreleasedates.com','cdn.teater.co','sollywood.com.sa','cdn.kinocheck.com','image.kinopoisk.ru','avatars.mds.yandex.net']);
 self.addEventListener('install',event=>{
   event.waitUntil((async()=>{const cache=await caches.open(SHELL_CACHE);await Promise.allSettled(SHELL.map(async path=>{try{const response=await fetch(path,{cache:'reload'});if(response.ok)await cache.put(path,response);}catch(_){}}));await self.skipWaiting();})());
 });
