@@ -1,9 +1,9 @@
 /* КАДР PWA — versioned shell cache. Updating the cache never touches localStorage. */
-const BUILD='3.2.1';
+const BUILD='3.2.3';
 const SHELL_CACHE=`kadr-shell-${BUILD}`;
 const DYNAMIC_CACHE='kadr-dynamic-v2';
 const SHELL=[
-  './','./index.html','./manifest.webmanifest','./icon.svg','./apple-touch-icon.png',
+  './','./index.html','./manifest.webmanifest',
   './assets/brand/logo-lockup.svg','./assets/brand/logo-compact.svg','./assets/brand/logo-mark.svg',
   './assets/brand/favicon.svg','./assets/brand/icon.svg','./assets/brand/apple-touch-icon.png',
   './assets/brand/icon-192.png','./assets/brand/icon-512.png','./assets/brand/fonts.css',
