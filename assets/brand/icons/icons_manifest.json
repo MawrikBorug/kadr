@@ -1,0 +1,682 @@
+{
+  "grid": {
+    "columns": 6,
+    "rows": 6,
+    "x_edges": [
+      0,
+      235,
+      469,
+      704,
+      939,
+      1173,
+      1408
+    ],
+    "y_edges": [
+      44,
+      156,
+      268,
+      380,
+      492,
+      604,
+      716
+    ],
+    "background_rgb": [
+      20,
+      21,
+      24
+    ],
+    "alpha_distance_start": 9,
+    "alpha_distance_full": 48
+  },
+  "icons": [
+    {
+      "name": "home",
+      "semanticName": "Главная",
+      "sourceCell": 1,
+      "row": 1,
+      "column": 1,
+      "sourceBox": [
+        0,
+        44,
+        235,
+        156
+      ],
+      "file": "assets/brand/icons/home.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "catalog-grid",
+      "semanticName": "Каталог / сетка",
+      "sourceCell": 2,
+      "row": 1,
+      "column": 2,
+      "sourceBox": [
+        235,
+        44,
+        469,
+        156
+      ],
+      "file": "assets/brand/icons/catalog-grid.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "list",
+      "semanticName": "Список",
+      "sourceCell": 3,
+      "row": 1,
+      "column": 3,
+      "sourceBox": [
+        469,
+        44,
+        704,
+        156
+      ],
+      "file": "assets/brand/icons/list.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "bookmark",
+      "semanticName": "Мой список / закладка",
+      "sourceCell": 4,
+      "row": 1,
+      "column": 4,
+      "sourceBox": [
+        704,
+        44,
+        939,
+        156
+      ],
+      "file": "assets/brand/icons/bookmark.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "collections",
+      "semanticName": "Подборки",
+      "sourceCell": 5,
+      "row": 1,
+      "column": 5,
+      "sourceBox": [
+        939,
+        44,
+        1173,
+        156
+      ],
+      "file": "assets/brand/icons/collections.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "shuffle",
+      "semanticName": "Рандом / перемешивание",
+      "sourceCell": 6,
+      "row": 1,
+      "column": 6,
+      "sourceBox": [
+        1173,
+        44,
+        1408,
+        156
+      ],
+      "file": "assets/brand/icons/shuffle.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "settings",
+      "semanticName": "Настройки",
+      "sourceCell": 7,
+      "row": 2,
+      "column": 1,
+      "sourceBox": [
+        0,
+        156,
+        235,
+        268
+      ],
+      "file": "assets/brand/icons/settings.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "search",
+      "semanticName": "Поиск",
+      "sourceCell": 8,
+      "row": 2,
+      "column": 2,
+      "sourceBox": [
+        235,
+        156,
+        469,
+        268
+      ],
+      "file": "assets/brand/icons/search.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "filter",
+      "semanticName": "Фильтр",
+      "sourceCell": 9,
+      "row": 2,
+      "column": 3,
+      "sourceBox": [
+        469,
+        156,
+        704,
+        268
+      ],
+      "file": "assets/brand/icons/filter.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "menu",
+      "semanticName": "Меню",
+      "sourceCell": 10,
+      "row": 2,
+      "column": 4,
+      "sourceBox": [
+        704,
+        156,
+        939,
+        268
+      ],
+      "file": "assets/brand/icons/menu.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "more",
+      "semanticName": "Ещё / три точки",
+      "sourceCell": 11,
+      "row": 2,
+      "column": 5,
+      "sourceBox": [
+        939,
+        156,
+        1173,
+        268
+      ],
+      "file": "assets/brand/icons/more.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "close",
+      "semanticName": "Закрыть",
+      "sourceCell": 12,
+      "row": 2,
+      "column": 6,
+      "sourceBox": [
+        1173,
+        156,
+        1408,
+        268
+      ],
+      "file": "assets/brand/icons/close.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "back",
+      "semanticName": "Назад",
+      "sourceCell": 13,
+      "row": 3,
+      "column": 1,
+      "sourceBox": [
+        0,
+        268,
+        235,
+        380
+      ],
+      "file": "assets/brand/icons/back.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "forward",
+      "semanticName": "Вперёд",
+      "sourceCell": 14,
+      "row": 3,
+      "column": 2,
+      "sourceBox": [
+        235,
+        268,
+        469,
+        380
+      ],
+      "file": "assets/brand/icons/forward.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "expand-up",
+      "semanticName": "Развернуть вверх",
+      "sourceCell": 15,
+      "row": 3,
+      "column": 3,
+      "sourceBox": [
+        469,
+        268,
+        704,
+        380
+      ],
+      "file": "assets/brand/icons/expand-up.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "collapse-down",
+      "semanticName": "Свернуть вниз",
+      "sourceCell": 16,
+      "row": 3,
+      "column": 4,
+      "sourceBox": [
+        704,
+        268,
+        939,
+        380
+      ],
+      "file": "assets/brand/icons/collapse-down.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "add",
+      "semanticName": "Добавить",
+      "sourceCell": 17,
+      "row": 3,
+      "column": 5,
+      "sourceBox": [
+        939,
+        268,
+        1173,
+        380
+      ],
+      "file": "assets/brand/icons/add.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "check",
+      "semanticName": "Подтвердить",
+      "sourceCell": 18,
+      "row": 3,
+      "column": 6,
+      "sourceBox": [
+        1173,
+        268,
+        1408,
+        380
+      ],
+      "file": "assets/brand/icons/check.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "favorite-outline",
+      "semanticName": "Избранное / контурное сердце",
+      "sourceCell": 19,
+      "row": 4,
+      "column": 1,
+      "sourceBox": [
+        0,
+        380,
+        235,
+        492
+      ],
+      "file": "assets/brand/icons/favorite-outline.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "favorite-filled",
+      "semanticName": "Избранное / заполненное сердце",
+      "sourceCell": 20,
+      "row": 4,
+      "column": 2,
+      "sourceBox": [
+        235,
+        380,
+        469,
+        492
+      ],
+      "file": "assets/brand/icons/favorite-filled.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "play",
+      "semanticName": "Продолжить / play",
+      "sourceCell": 21,
+      "row": 4,
+      "column": 3,
+      "sourceBox": [
+        469,
+        380,
+        704,
+        492
+      ],
+      "file": "assets/brand/icons/play.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "watched",
+      "semanticName": "Просмотрено",
+      "sourceCell": 22,
+      "row": 4,
+      "column": 4,
+      "sourceBox": [
+        704,
+        380,
+        939,
+        492
+      ],
+      "file": "assets/brand/icons/watched.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "watching",
+      "semanticName": "Смотрю / progress",
+      "sourceCell": 23,
+      "row": 4,
+      "column": 5,
+      "sourceBox": [
+        939,
+        380,
+        1173,
+        492
+      ],
+      "file": "assets/brand/icons/watching.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "dropped",
+      "semanticName": "Брошено / stop",
+      "sourceCell": 24,
+      "row": 4,
+      "column": 6,
+      "sourceBox": [
+        1173,
+        380,
+        1408,
+        492
+      ],
+      "file": "assets/brand/icons/dropped.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "film",
+      "semanticName": "Фильм",
+      "sourceCell": 25,
+      "row": 5,
+      "column": 1,
+      "sourceBox": [
+        0,
+        492,
+        235,
+        604
+      ],
+      "file": "assets/brand/icons/film.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "series",
+      "semanticName": "Сериал",
+      "sourceCell": 26,
+      "row": 5,
+      "column": 2,
+      "sourceBox": [
+        235,
+        492,
+        469,
+        604
+      ],
+      "file": "assets/brand/icons/series.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "anime",
+      "semanticName": "Аниме",
+      "sourceCell": 27,
+      "row": 5,
+      "column": 3,
+      "sourceBox": [
+        469,
+        492,
+        704,
+        604
+      ],
+      "file": "assets/brand/icons/anime.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "cast",
+      "semanticName": "Актёры / cast",
+      "sourceCell": 28,
+      "row": 5,
+      "column": 4,
+      "sourceBox": [
+        704,
+        492,
+        939,
+        604
+      ],
+      "file": "assets/brand/icons/cast.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "director",
+      "semanticName": "Режиссёр / clapperboard",
+      "sourceCell": 29,
+      "row": 5,
+      "column": 5,
+      "sourceBox": [
+        939,
+        492,
+        1173,
+        604
+      ],
+      "file": "assets/brand/icons/director.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "duration",
+      "semanticName": "Длительность",
+      "sourceCell": 30,
+      "row": 5,
+      "column": 6,
+      "sourceBox": [
+        1173,
+        492,
+        1408,
+        604
+      ],
+      "file": "assets/brand/icons/duration.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "calendar",
+      "semanticName": "Год / календарь",
+      "sourceCell": 31,
+      "row": 6,
+      "column": 1,
+      "sourceBox": [
+        0,
+        604,
+        235,
+        716
+      ],
+      "file": "assets/brand/icons/calendar.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "tag",
+      "semanticName": "Жанр / tag",
+      "sourceCell": 32,
+      "row": 6,
+      "column": 2,
+      "sourceBox": [
+        235,
+        604,
+        469,
+        716
+      ],
+      "file": "assets/brand/icons/tag.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "gallery",
+      "semanticName": "Галерея",
+      "sourceCell": 33,
+      "row": 6,
+      "column": 3,
+      "sourceBox": [
+        469,
+        604,
+        704,
+        716
+      ],
+      "file": "assets/brand/icons/gallery.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "external-link",
+      "semanticName": "Внешний источник",
+      "sourceCell": 34,
+      "row": 6,
+      "column": 4,
+      "sourceBox": [
+        704,
+        604,
+        939,
+        716
+      ],
+      "file": "assets/brand/icons/external-link.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "refresh",
+      "semanticName": "Обновить",
+      "sourceCell": 35,
+      "row": 6,
+      "column": 5,
+      "sourceBox": [
+        939,
+        604,
+        1173,
+        716
+      ],
+      "file": "assets/brand/icons/refresh.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    },
+    {
+      "name": "backup",
+      "semanticName": "Backup / перенос",
+      "sourceCell": 36,
+      "row": 6,
+      "column": 6,
+      "sourceBox": [
+        1173,
+        604,
+        1408,
+        716
+      ],
+      "file": "assets/brand/icons/backup.png",
+      "width": 256,
+      "height": 256,
+      "format": "PNG/RGBA",
+      "backgroundRemoved": "color-distance alpha from uniform charcoal background; icon strokes not redrawn"
+    }
+  ],
+  "sourceSheetBundled": false
+}

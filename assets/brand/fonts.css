@@ -1,4 +1,4 @@
-/* KADR 3.2.1 — local Inter fonts; Cyrillic supported; no CDN required. */
+/* KADR 4.0 — local Inter fonts; Cyrillic supported; no CDN required. */
 @font-face{font-family:"KADR Inter";src:url("./fonts/Inter-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
 @font-face{font-family:"KADR Inter";src:url("./fonts/Inter-SemiBold.woff2") format("woff2");font-style:normal;font-weight:600;font-display:swap}
 @font-face{font-family:"KADR Inter";src:url("./fonts/Inter-Bold.woff2") format("woff2");font-style:normal;font-weight:700;font-display:swap}
