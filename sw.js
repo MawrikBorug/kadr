@@ -1,5 +1,5 @@
 /* КАДР PWA — versioned shell cache. Updating the cache never touches localStorage. */
-const BUILD='4.0.5-on-demand-v9';
+const BUILD='4.1.0-ios-premium-v11';
 const SHELL_CACHE=`kadr-shell-${BUILD}`;
 const SHELL=[
   './','./index.html','./manifest.webmanifest',
