@@ -9,12 +9,13 @@ export function normalizeKpuRating(body, { imdbId, year, type } = {}) {
   const matched = rows.filter(row => {
     if (String(row.imdbId || '').trim().toLowerCase() !== normalizedImdb) return false;
     const itemYear = Number(row.year);
-    if (year && itemYear && Number(year) !== itemYear) return false;
+    if (year && !(itemYear >= 1870 && Number(year) === itemYear)) return false;
     const kind = String(row.type || '').toUpperCase();
-    if (type === 'series' && kind && !['TV_SERIES','MINI_SERIES'].includes(kind)) return false;
-    if (type !== 'series' && kind && ['TV_SERIES','MINI_SERIES'].includes(kind)) return false;
+    if (type === 'series' && !['TV_SERIES','MINI_SERIES'].includes(kind)) return false;
+    if (type !== 'series' && !['FILM','VIDEO'].includes(kind)) return false;
     return Number.isFinite(Number(row.ratingKinopoisk)) && Number(row.ratingKinopoisk) > 0
-      && Number(row.ratingKinopoisk) <= 10 && Number.isFinite(Number(row.kinopoiskId));
+      && Number(row.ratingKinopoisk) <= 10 && Number.isSafeInteger(Number(row.kinopoiskId))
+      && Number(row.kinopoiskId) > 0;
   });
   // If the upstream returns several verified identities, do not pick the first.
   if (matched.length !== 1) return null;
